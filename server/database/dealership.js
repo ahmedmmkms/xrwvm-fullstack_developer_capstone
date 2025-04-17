@@ -1,9 +1,9 @@
 /* eslint-env es6 */
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
+var Schema = mongoose.Schema;
 
-const dealerships = new Schema({
+var dealerships = new Schema({
   id: {
     type: Number,
     required: true,
